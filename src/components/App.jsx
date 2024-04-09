@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import Description from "./description/Description.jsx";
 import Option from './options/Options.jsx';
 import Feedback from './feedback/Feedback.jsx';
-import Notification from './notification/Notification.jsx';
+import Notification from './notification/notification.jsx';
 import css from './App.module.css'
 
 
