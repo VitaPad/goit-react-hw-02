@@ -2,9 +2,12 @@
 
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from 'react';
-import Description from "./description/description"
-import Option from './options/Option';
-import Feedback from './feedback/Feedback.jsx'
+import Description from "./description/Description.jsx";
+import Option from './options/Options.jsx';
+import Feedback from './feedback/Feedback.jsx';
+import Notification from './notification/Notification.jsx';
+import css from './App.module.css'
+
 
 export default function App() {
   const [feedback, setFeedback] = useState(() => {
@@ -38,11 +41,12 @@ export default function App() {
   };
 
   return (
-    <>
+    <div className={css.container}>
  <Description />
  <Option  updateFeedback={updateFeedback} resetFeedback={resetFeedback} totalFeedback={totalFeedback} />
  <Feedback feedback={feedback} positiveFeedback={positiveFeedback} totalFeedback={totalFeedback} />
-    </>
+ {totalFeedback === 0 && (<Notification />)}
+    </div>
   )
   }
 
