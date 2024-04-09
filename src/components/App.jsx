@@ -4,7 +4,7 @@ import Feedback from './feedback/Feedback.jsx';
 import Description from './description/Description.jsx';
 import css from './App.module.css';
 import Option from './options/Options.jsx';
-import Notification from './Notification.jsx';
+import Notification from './notification/Notification.jsx';
 
 
 
