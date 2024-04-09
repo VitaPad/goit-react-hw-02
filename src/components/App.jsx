@@ -2,7 +2,7 @@
 
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from 'react';
-import Description from "./description/Description.jsx";
+import Description from './description/Description.jsx';
 import Option from './options/Options.jsx';
 import Feedback from './feedback/Feedback.jsx';
 import Notification from './notification/notification.jsx';
