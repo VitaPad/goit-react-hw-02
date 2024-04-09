@@ -1,5 +1,5 @@
 
-import css from './options.module.css'
+import css from './Options.module.css'
 export default function Option ({updateFeedback, totalFeedback, resetFeedback }) {
   
     const handleClick = (feedbackType) => {
