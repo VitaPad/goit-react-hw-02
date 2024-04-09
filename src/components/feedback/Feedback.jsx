@@ -1,4 +1,5 @@
 export default function Feedback({feedback, totalFeedback, positiveFeedback }) {
+  
      return (
       <>
         <p>Good: {feedback.good}</p>

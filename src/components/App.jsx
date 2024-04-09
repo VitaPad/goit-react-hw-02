@@ -20,8 +20,8 @@ export default function App() {
   });
   
   useEffect(()=> {
-    localStorage.setItem("feedbackCount", JSON.stringify("feedback"))
-  })
+    localStorage.setItem("feedbackCount", JSON.stringify(feedback))
+  }, [feedback])
 
 
   const resetFeedback = () => {
