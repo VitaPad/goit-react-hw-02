@@ -1,10 +1,11 @@
-
+// eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from 'react';
 import Feedback from './feedback/feedback.jsx';
 import Description from './description/description.jsx';
 import Notification from './notification/notification.jsx';
 import css from './App.module.css';
-import Option from './options/Options.jsx';
+import Option from './options/options.jsx';
+
 
 
 export default function App() {
